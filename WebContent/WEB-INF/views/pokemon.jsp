@@ -82,7 +82,9 @@
            			<a href="javascript:void(0)" id = "close5" class="closebtn" onclick="closeForm5()">&times;</a>
            			<img src = "asserts/Card 1.png" >
            		</div>
+			
 		</div>
+		<div class = "footers">Made with <img src = "asserts/Vector.svg"> by ProGrad</div>
 	</form>
 </body>
 <script type="text/javascript" src="/lap-java-gotta_catchem_all/script/script.js"></script>
