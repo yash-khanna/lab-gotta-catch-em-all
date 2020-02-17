@@ -652,12 +652,11 @@ body {
   font-size: 30px;
   color: black;
 }
-
 .footers{
 	position: absolute;
-	top: 1700px;
+	top: 1750px;
 	margin-left: 80px;
-	left: -100px;
+	left: 30px;
 	font-size: 18px;
 	font-family: Nunito Sans;
 	font-style: normal;
