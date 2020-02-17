@@ -653,3 +653,12 @@ body {
   color: black;
 }
 
+.footers{
+	position: absolute;
+	top: 1700px;
+	margin-left: 80px;
+	left: -100px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+	font-style: normal;
+}
