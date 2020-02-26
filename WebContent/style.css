@@ -7,6 +7,7 @@ body {
 }
 
 .mainframe {
+
 	position: absolute;
 	width: 1850px;
 	height: 1100px;
@@ -14,12 +15,14 @@ body {
 	top: 50px;
 	padding: 40px;
 	left-padding: 30px;
-	background: url(asserts/background.v1.jpg);
+	background: url(assets/background.v1.jpg);
 	justify-content: center;
 	display: flex;
 }
 
 .heading {
+
+	
 	position: absolute;
 	width: 1470px;
 	height: 100px;
@@ -72,7 +75,7 @@ body {
 	height: 210px;
 	left: 47px;
 	top: 50px;
-	background: url(asserts/logo1.jpg);
+	background: url(assets/logo1.jpg);
 	justify-content: center;
 }
 
@@ -94,7 +97,7 @@ body {
 	width: 200px; height : 210px;
 	left: 47px;
 	top: 50px;
-	background: url(asserts/logo1.jpg);
+	background: url(assets/logo1.jpg);
 	height: 210px; 
 }
 
@@ -115,7 +118,7 @@ body {
 	position: absolute;
 	width: 200px; height : 210px; left: 47px;
 	top: 50px;
-	background: url(asserts/logo1.jpg);
+	background: url('assets/logo1.jpg');
 	height: 210px;
 	
 }
@@ -136,7 +139,7 @@ body {
 .card4Image {
 	position: absolute;
 	width: 200px; height : 210px;
-	background: url(asserts/logo1.jpg);
+	background: url('assets/logo1.jpg');
 	left: 47px;
 	top: 50px;
 }
@@ -157,7 +160,7 @@ body {
 .card5Image {
 	position: absolute;
 	width: 200px; height : 210px; 
-	background: url(asserts/logo1.jpg);
+	background: url('assets/logo1.jpg');
 	left: 47px;
 	top: 50px;
 }
@@ -214,7 +217,7 @@ body {
     z-index: 11;
 }
 
-.image1 {
+.image1{
 	position: absolute;
 	left: 395px;
 	top: 200px;

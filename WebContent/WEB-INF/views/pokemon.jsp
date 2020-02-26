@@ -4,14 +4,14 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
-<link rel="stylesheet" href="/lap-java-gotta_catchem_all/style.css" />
+<title>GOTTA CATCH' EM ALL</title>
+<link rel="stylesheet" href="style.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 	<form action="/lap-java-gotta_catchem_all/pokemon" method="post" id="myForm">
 		<div class="mainframe">
-			<h1 class="heading"><center> GOTTA CATCH' EM ALL </center></h1>
+			<h1 class="heading">GOTTA CATCH' EM ALL </h1>
 			<div class="cardposition">
 				<div class="card1">
 					<button class="card1Image" name="card1" id = "show1" onclick = "myfunction1()"></button>					
@@ -42,9 +42,9 @@
            			<div class="card1centered2" id = "bt"> ${type1}</div>
            			<div class="card1centered3" id = "be"> ${evolution1}</div>
            			<div class="card1centered4" id = "bb"> ${baseExp1}</div>
-    				<img src="asserts/Card 2.png" >  
+    				<img src="./assets/Card 2.png" >  
     				<a href="javascript:void(0)" id = "close1" class="closebtn" onclick="closeForm5()">&times;</a>
-           			<!-- <img  class = "image1" src = "asserts/Card 2.png" id = "img1" alt="Show/Hide Image" style="display:none" > -->           			
+           			<!-- <img  class = "image1" src = "assets/Card 2.png" id = "img1" alt="Show/Hide Image" style="display:none" > -->           			
            		</div>
            		<div class = "popup2" id = "popup2">
 					<div class="card2centered" id = "cm"> ${message2}</div>
@@ -53,7 +53,7 @@
            			<div class="card2centered3" id = "ce"> ${evolution2}</div>
            			<div class="card2centered4" id = "cb"> ${baseExp2}</div>
            			<a href="javascript:void(0)" id = "close2"class="closebtn" onclick="closeForm5()">&times;</a>
-           			<img src="asserts/Card 3.png" >
+           			<img src="./assets/Card 3.png" >
    				</div>   				
    				<div class = "popup3" id = "popup3">
 					<div class="card3centered" id = "dm"> ${message3}</div>
@@ -62,7 +62,7 @@
            			<div class="card3centered3" id = "de"> ${evolution3}</div>
            			<div class="card3centered4" id = "db"> ${baseExp3}</div>
            			<a href="javascript:void(0)" id = "close3"class="closebtn" onclick="closeForm5()">&times;</a>
-           			<img src="asserts/Card 5.png" >
+           			<img src="./assets/Card 5.png" >
 				</div>
 				<div class = "popup4" id = "popup4">
 					<div class="card4centered" id = "mm"> ${message4}</div>
@@ -71,7 +71,7 @@
            			<div class="card4centered3" id = "me"> ${evolution4}</div>
            			<div class="card4centered4" id = "mb"> ${baseExp4}</div>
            			<a href="javascript:void(0)" id = "close4"class="closebtn" onclick="closeForm5()">&times;</a>
-           			<img src = "asserts/Card 4.png">
+           			<img src = "./assets/Card 4.png">
            		</div>
            		<div class = "popup5" id = "popup5">
 					<div class="card5centered" id = "pm"> ${message5}</div>
@@ -80,12 +80,12 @@
            			<div class="card5centered3" id = "pe"> ${evolution5}</div>
            			<div class="card5centered4" id = "pb"> ${baseExp5}</div>
            			<a href="javascript:void(0)" id = "close5" class="closebtn" onclick="closeForm5()">&times;</a>
-           			<img src = "asserts/Card 1.png" >
+           			<img src = "./assets/Card 1.png" >
            		</div>
 			
 		</div>
-		<div class = "footers">Made with <img src = "asserts/Vector.svg"> by ProGrad</div>
+		<div class = "footers">Made with <img src = "./assets/prograd-heart.svg"> by ProGrad</div>
 	</form>
 </body>
-<script type="text/javascript" src="/lap-java-gotta_catchem_all/script/script.js"></script>
+<script type="text/javascript" src="./script/script.js"></script>
 </html>
