@@ -34,6 +34,7 @@ Do not modify the entire code. Instructions are given in comments. Edit the code
 Right-click on the project -> go to Run as -> Run on server. You can check the output in eclipse browser or in your browser.
 
 ## Testing
+Go to JAVA Resources -> src/testing -> go inside all classes and remove the comments. CTRL + / is the shortcut for uncommenting all lines.
 Right-click on the project -> go to Run as -> Junit Test. All the test cases must be evaluated.
 
 
