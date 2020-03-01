@@ -62,10 +62,10 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 
 ## Progression - 2
 1. ***Create a child class called Bulbasaur with the following arguments***
- - ***String characteristics *** 
- - ***String type ***
- - ***String evolution***
- - ***String baseExp***
+   - ***String characteristics*** 
+   - ***String type***
+   - ***String evolution***
+   - ***String baseExp***
 3. ******
 
 ## Bonus
