@@ -68,10 +68,34 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
    - ***String evolution***
    - ***String baseExp***
 2. ***Generate appropriate getters and setters.***
+3. ***Bulbasaur must extend the class Pokemon.***
+4. ***Generate a six argument constructor with the following arguments***
+   - ***pokemonName***
+   - ***pokemonNumber***
+   - ***characteristics***
+   - ***type***
+   - ***evolution***
+   - ***baseExp***
+5. ***pokemonName and pokemonNumber should refer to the parent constructor.***
 
-## Bonus
-1. ******
-2. ******
+## Progression - 3
+1. ***Create a child class called Bulbasaur with the following arguments***
+   - ***String characteristics*** 
+   - ***String type***
+   - ***String evolution***
+   - ***String baseExp***
+2. ***Generate appropriate getters and setters.***
+3. ***Bulbasaur must extend the class Pokemon.***
+4. ***Generate a six argument constructor with the following arguments***
+   - ***pokemonName***
+   - ***pokemonNumber***
+   - ***characteristics***
+   - ***type***
+   - ***evolution***
+   - ***baseExp***
+5. ***pokemonName and pokemonNumber should refer to the parent constructor.*** 
+
+
 ```
 Your name is ProGrads.
 Your partner name is FACEPrep.
