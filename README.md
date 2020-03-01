@@ -135,7 +135,8 @@ baseExp = "240"
 ``` 
 pokemonName = Dragonite
 pokemonNumber = 149
-characteristics = "Dragonite is capable of flying faster than the speed of sound. It is a kindhearted Pokémon with human-like intelligence. It shows signs of altruism."
+characteristics = "Dragonite is capable of flying faster than the speed of sound. 
+It is a kindhearted Pokémon with human-like intelligence. It shows signs of altruism."
 type = "DRAGON"
 evolution = "DRATINI"
 baseExp = "270" 
@@ -188,14 +189,22 @@ baseExp = "64"
 ``` 
 pokemonName = Pikachu
 pokemonNumber = 25
-characteristics = Pikachu is an Electric-type Pokémon, which was introduced in Generation I. Over the years, Pikachu has become so popular that it serves as the Pokémon franchise mascot."
+characteristics = Pikachu is an Electric-type Pokémon, which was introduced in Generation I. 
+Over the years, Pikachu has become so popular that it serves as the Pokémon franchise mascot."
 type = "ELECTRIC"
 evolution = "RAICHU"
 baseExp = "112" 
 ```
-```
-Your name is ProGrads.
-Your partner name is FACEPrep.
-You two are "LOVERS"
-```
+
+## PROGRESSION - 7
+1. ***Create the following objects in the PokemonController class located inside JAVA Resources - src/controller***
+   - ***Bulbasaur***
+   - ***Charizard***
+   - ***Dragonite***
+   - ***Mew***
+   - ***Pikachu***
+ 2. ***You getters to retrieve the value and pass to the request.setAttribute method.***
+
+
+
 Happy Coding ProGrad ❤️
