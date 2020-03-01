@@ -89,7 +89,7 @@ baseExp = "64"
 ```
 
 ## Progression - 3
-1. ***Create a child class called Charizard  with the following arguments***
+1. ***Create a child class called Charizard with the following arguments***
    - ***String characteristics*** 
    - ***String type***
    - ***String evolution***
@@ -115,6 +115,84 @@ evolution = "CHARMELEON"
 baseExp = "240" 
 ```
 
+## Progression - 4
+1. ***Create a child class called Dragonite with the following arguments***
+   - ***String characteristics*** 
+   - ***String type***
+   - ***String evolution***
+   - ***String baseExp***
+2. ***Generate appropriate getters and setters.***
+3. ***Dragonite must extend the class Pokemon.***
+4. ***Generate a six argument constructor with the following arguments***
+   - ***pokemonName***
+   - ***pokemonNumber***
+   - ***characteristics***
+   - ***type***
+   - ***evolution***
+   - ***baseExp***
+5. ***pokemonName and pokemonNumber should refer to the parent constructor.*** 
+6. ***Use the predefined values***
+``` 
+pokemonName = Dragonite
+pokemonNumber = 149
+characteristics = "Dragonite is capable of flying faster than the speed of sound. It is a kindhearted Pokémon with human-like intelligence. It shows signs of altruism."
+type = "DRAGON"
+evolution = "DRATINI"
+baseExp = "270" 
+```
+
+## Progression - 5
+1. ***Create a child class called Mew with the following arguments***
+   - ***String characteristics*** 
+   - ***String type***
+   - ***String evolution***
+   - ***String baseExp***
+2. ***Generate appropriate getters and setters.***
+3. ***Charizard  must extend the class Pokemon.***
+4. ***Generate a six argument constructor with the following arguments***
+   - ***pokemonName***
+   - ***pokemonNumber***
+   - ***characteristics***
+   - ***type***
+   - ***evolution***
+   - ***baseExp***
+5. ***pokemonName and pokemonNumber should refer to the parent constructor.*** 
+6. ***Use the predefined values***
+``` 
+pokemonName = Mew
+pokemonNumber = 151
+characteristics = "Mew is a Psychic-type Mythical Pokémon introduced in Generation I. 
+Mew is notable for its unique ability to learn every Technical Machine, Technical Record & Hidden Machine."
+type = "PSYCHIC"
+evolution = "NONE"
+baseExp = "64" 
+```
+
+## Progression - 6
+1. ***Create a child class called Pikachu with the following arguments***
+   - ***String characteristics*** 
+   - ***String type***
+   - ***String evolution***
+   - ***String baseExp***
+2. ***Generate appropriate getters and setters.***
+3. ***Charizard  must extend the class Pokemon.***
+4. ***Generate a six argument constructor with the following arguments***
+   - ***pokemonName***
+   - ***pokemonNumber***
+   - ***characteristics***
+   - ***type***
+   - ***evolution***
+   - ***baseExp***
+5. ***pokemonName and pokemonNumber should refer to the parent constructor.*** 
+6. ***Use the predefined values***
+``` 
+pokemonName = Pikachu
+pokemonNumber = 25
+characteristics = Pikachu is an Electric-type Pokémon, which was introduced in Generation I. Over the years, Pikachu has become so popular that it serves as the Pokémon franchise mascot."
+type = "ELECTRIC"
+evolution = "RAICHU"
+baseExp = "112" 
+```
 ```
 Your name is ProGrads.
 Your partner name is FACEPrep.
