@@ -203,7 +203,7 @@ baseExp = "112"
    - ***Dragonite***
    - ***Mew***
    - ***Pikachu***
- 2. ***You getters to retrieve the value and pass to the request.setAttribute method.***
+ 2. ***Use getters to retrieve the value and pass to the request.setAttribute method.***
 
 
 
