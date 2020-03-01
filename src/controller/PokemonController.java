@@ -32,7 +32,7 @@ public class PokemonController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
-		/* Do not modify the lines 41 to 45 */
+		/* Do not modify these lines */
 		String value1 = request.getParameter("card1"); // refers to bulbasaur
 		String value2 = request.getParameter("card2"); // refers to charizard
 		String value3 = request.getParameter("card3"); // refers to dragonite
