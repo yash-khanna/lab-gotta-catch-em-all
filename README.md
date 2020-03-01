@@ -77,15 +77,25 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
    - ***evolution***
    - ***baseExp***
 5. ***pokemonName and pokemonNumber should refer to the parent constructor.***
+6. ***Use the predefined values***
+```
+pokemonName = Bulbasaur
+pokemonNumber = 001
+characteristics = "Bulbasaur is a Grass/Poison-type Pokémon introduced in Generation I. 
+It evolves into Ivysaur starting at level 16. It is one of the three Starter Pokémon in the Kanto region."
+type = "POISON"
+evolution = "IVYSAUR"
+baseExp = "64" 
+```
 
 ## Progression - 3
-1. ***Create a child class called Bulbasaur with the following arguments***
+1. ***Create a child class called Charizard  with the following arguments***
    - ***String characteristics*** 
    - ***String type***
    - ***String evolution***
    - ***String baseExp***
 2. ***Generate appropriate getters and setters.***
-3. ***Bulbasaur must extend the class Pokemon.***
+3. ***Charizard  must extend the class Pokemon.***
 4. ***Generate a six argument constructor with the following arguments***
    - ***pokemonName***
    - ***pokemonNumber***
@@ -94,7 +104,16 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
    - ***evolution***
    - ***baseExp***
 5. ***pokemonName and pokemonNumber should refer to the parent constructor.*** 
-
+6. ***Use the predefined values***
+``` 
+pokemonName = Charizard
+pokemonNumber = 006
+characteristics = "Charizard is fit and strong and has the ability to soar up to ridiculous heights.
+With a single breath of fire, it can burn down forests and melt gigantic glaciers."
+type = "FIRE"
+evolution = "CHARMELEON"
+baseExp = "240" 
+```
 
 ```
 Your name is ProGrads.
