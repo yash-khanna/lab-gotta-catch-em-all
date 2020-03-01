@@ -55,10 +55,11 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 
 
 ## Progression - 1 
-1. ***Create a parent class called Pokemon inside the model package.***
-2. ***String pokemonName, int pokemonNumber are the arguments for the Pokemon class.***
-3. ***Generate appropriate getters and setters.***
-4. ***Generate a two-argument constructor in the Pokemon class.***
+1. ***Create a parent class called Pokemon inside the model package with the following arguments***
+   - ***String pokemonName***
+   - ***int pokemonNumber***
+2. ***Generate appropriate getters and setters.***
+3. ***Generate a two-argument constructor in the Pokemon class.***
 
 ## Progression - 2
 1. ***Create a child class called Bulbasaur with the following arguments***
@@ -66,7 +67,7 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
    - ***String type***
    - ***String evolution***
    - ***String baseExp***
-3. ******
+2. ***Generate appropriate getters and setters.***
 
 ## Bonus
 1. ******
