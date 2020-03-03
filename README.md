@@ -4,9 +4,9 @@
 
 ## A Quick Introduction
 
-A simple lab to explain about java inheritance 
+Ross is a pokemon fan. He grew up watching it everyday after school. Even at the age of 28, his favorite passtime has been sketching the Pokemons. Looking at his addiction, his friend Mike decides to design a simple web-page with Ross's favorite Pokemon characters to suprise him. 
 
-
+Mike has designed it & wants your help to finish it off. Could you help him?
 
 ## What should you do
 ```
@@ -28,30 +28,29 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 
 ## Instructions
 
-1. ***Go through the instructions carefully.***
-2. ***Do not modify the entire code.***
-3. ***Edit the code as per the instructions.***
-4. ***Go to Java Resources -> src folder.***
-5. ***You will have two packages src/controller and src/model.***
-6. ***Create Classes inside the model package***
-7. ***Once the progressions are completed follow the instructions to run the application and test your code.***
+1. ***Do not modify the entire code.***
+2. ***Edit the code as per the instructions.***
+3. ***Go to Java Resources -> src folder.***
+4. ***You will have two packages src/controller and src/model.***
+5. ***Create Classes inside the model package***
+6. ***Once the progressions are completed, follow the instructions to run the application and test your code.***
  
 ## Run the Project
-1. ***Right - click on the project.***
+1. ***Right click on the project.***
 2. ***Go to Run as -> Run on server.***
 3. ***You can check the output in eclipse browser or in your browser.***
 
 ## Testing
 1. ***Uncomment the code inside Java Resources - src -testing - TestFlamesCheckService class file.***
-2. ***Right - click on the project***
+2. ***Right click on the project***
 3. ***Go to Run as -> Junit Test.*** 
 4. ***All the testcases must be evaluated.***
 
 ## Input Format
-1. ***Inputs are set of Strings that are defined in each progressions*** 
+1. ***Inputs are set of Strings that are defined in each progression*** 
 
 ## Output Format
-1. ***Output is a set of strings that displays the details of each Pokemon you select***
+1. ***Output is a set of strings that display the details of each Pokemon you select***
 
 
 ## Progression - 1 
@@ -196,7 +195,7 @@ evolution = "RAICHU"
 baseExp = "112" 
 ```
 
-## PROGRESSION - 7
+## Progression - 7
 1. ***Create the following objects in the PokemonController class located inside JAVA Resources - src/controller***
    - ***Bulbasaur***
    - ***Charizard***
