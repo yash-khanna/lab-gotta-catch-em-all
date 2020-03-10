@@ -10,17 +10,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-
-/**
- * Servlet implementation class PokemonController
- */
 @WebServlet(urlPatterns = { "/pokemon" })
 public class PokemonController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	public PokemonController() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -32,12 +27,11 @@ public class PokemonController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
-		/* Do not modify these lines */
-		String value1 = request.getParameter("card1"); // refers to bulbasaur
-		String value2 = request.getParameter("card2"); // refers to charizard
-		String value3 = request.getParameter("card3"); // refers to dragonite
-		String value4 = request.getParameter("card4"); // refers to Mew
-		String value5 = request.getParameter("card5"); // refers to pikachu
+		String value1 = request.getParameter("card1"); 
+		String value2 = request.getParameter("card2"); 
+		String value3 = request.getParameter("card3"); 
+		String value4 = request.getParameter("card4"); 
+		String value5 = request.getParameter("card5"); 
 
 		String msg = "";
 
