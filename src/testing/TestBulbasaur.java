@@ -4,18 +4,20 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-
+import model.Bulbasaur;
+import model.Pokemon;
 
 public class TestBulbasaur {
+	
 	@Test
 	public void testCharacteristicsMethod() {
-	//	Bulbasaur p = new Bulbasaur("AAA",4);
-		String temp = "Bulbasaur is a Grass/Poison-type Pok�mon introduced in Generation I. It evolves into Ivysaur starting at level 16. It is one of the three Starter Pok�mon in the Kanto region.";
-		assertEquals(temp,p.characteristics());		
+		Bulbasaur bulbasaur = new Bulbasaur("bulbsaur",4,"Bulbasaur is a Grass/Poison-type Pokémon introduced in Generation I. It evolves into Ivysaur starting at level 16. It is one of the three Starter Pokémon in the Kanto region.","POISON","IVYSAUR",64);
+		String temp = "Bulbasaur is a Grass/Poison-type Pokémon introduced in Generation I. It evolves into Ivysaur starting at level 16. It is one of the three Starter Pokémon in the Kanto region.";
+		assertEquals(temp,bulbasaur.getCharacteristics());		
 		try {
-	//		Bulbasaur p1 = new Bulbasaur(null,0);
+			Bulbasaur bulb = new Bulbasaur(null,0,null,null,null,0);
 			temp = null;
-			p1.characteristics();
+			bulb.getCharacteristics();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -24,13 +26,13 @@ public class TestBulbasaur {
 	
 	@Test
 	public void testTypeMethod() {
-		Bulbasaur p = new Bulbasaur("AAA",4);
+		Bulbasaur bulbasaur = new Bulbasaur("bulbsaur",4,"Bulbasaur is a Grass/Poison-type Pokémon introduced in Generation I. It evolves into Ivysaur starting at level 16. It is one of the three Starter Pokémon in the Kanto region.","POISON","IVYSAUR",64);
 		String temp = "POISON";
-		assertEquals(temp,p.type());		
+		assertEquals(temp,bulbasaur.getType());		
 		try {
-			Bulbasaur p1 = new Bulbasaur(null,0);
+			Bulbasaur p1 = new Bulbasaur(null,0,null,null,null,0);
 			temp = null;
-			p1.type();
+			p1.getType();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -39,13 +41,13 @@ public class TestBulbasaur {
 	
 	@Test
 	public void testEvolutionMethod() {
-		Bulbasaur p = new Bulbasaur("AAA",4);
+		Bulbasaur bulbasaur = new Bulbasaur("bulbsaur",4,"Bulbasaur is a Grass/Poison-type Pokémon introduced in Generation I. It evolves into Ivysaur starting at level 16. It is one of the three Starter Pokémon in the Kanto region.","POISON","IVYSAUR",64);
 		String temp = "IVYSAUR";
-		assertEquals(temp,p.evolution());		
+		assertEquals(temp,bulbasaur.getEvolution());		
 		try {
-			Bulbasaur p1 = new Bulbasaur(null,0);
+			Bulbasaur p1 = new Bulbasaur(null,0,null,null,null,0);
 			temp = null;
-			p1.evolution();
+			p1.getEvolution();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -54,17 +56,18 @@ public class TestBulbasaur {
 	
 	@Test
 	public void testBaseExpMethod() {
-		Bulbasaur p = new Bulbasaur("AAA",4);
-		String temp = "64";
-		assertEquals(temp,p.baseExp());		
+		Bulbasaur bulbasaur = new Bulbasaur("bulbsaur",4,"Bulbasaur is a Grass/Poison-type Pokémon introduced in Generation I. It evolves into Ivysaur starting at level 16. It is one of the three Starter Pokémon in the Kanto region.","POISON","IVYSAUR",64);
+		int temp = 64;
+		assertEquals(temp,bulbasaur.getBaseExp());		
 		try {
-			Bulbasaur p1 = new Bulbasaur(null,0);
-			temp = null;
-			p1.baseExp();
+			Bulbasaur p1 = new Bulbasaur(null,0,null,null,null,0);
+			temp = 0;
+			p1.getBaseExp();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
 		}
 	}
 }
+
 */
